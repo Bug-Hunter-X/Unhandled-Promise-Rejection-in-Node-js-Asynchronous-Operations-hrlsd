@@ -1,0 +1,3 @@
+# Unhandled Promise Rejection in Node.js Asynchronous Operations
+
+This repository demonstrates a common error in Node.js asynchronous programming: unhandled promise rejections.  The `bug.js` file contains code that incorrectly handles a potential division by zero error within an asynchronous operation. The solution in `bugSolution.js` shows how to correctly handle such errors using `.catch()` or `try...catch` blocks.
